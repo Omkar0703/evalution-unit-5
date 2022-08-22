@@ -1,4 +1,6 @@
-let click=0
+
+  
+  let click=0
 let count=document.getElementById('count');
 count.innerText=click;
   fetch('https://masai-api.herokuapp.com/coffee/menu')
@@ -48,3 +50,4 @@ count.innerText=click;
     // Users should be able to add the items to the bucket when clicked on add to bucket button.
 
   })
+ 
